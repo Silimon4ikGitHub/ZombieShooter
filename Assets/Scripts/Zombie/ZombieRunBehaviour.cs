@@ -37,11 +37,6 @@ public class ZombieRunBehaviour : StateMachineBehaviour
         {
             animator.SetBool("IsRun", false);
         }
-
-        if (zombie.Ge > 100)
-        {
-
-        }
     }
 
     override public void OnStateExit(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
