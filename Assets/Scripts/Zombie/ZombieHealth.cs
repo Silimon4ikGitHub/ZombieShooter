@@ -37,11 +37,21 @@ public class ZombieHealth : MonoBehaviour
         Invoke("DestoryBody", destroyTime);
     }
 
+    public void StartHitReaction()
+    {
+        transform.gameObject.GetComponent<Animator>().SetBool("IsDamaged", true);
+    }
+
+    public void EndHitReaction()
+    {
+        transform.gameObject.GetComponent<Animator>().SetBool("IsDamaged", false);
+    }
+
     private void Push(Vector3 dirrection)
     {
         foreach(Rigidbody rigidbody in allRigidbodies)
         {
-            rigidbody.AddForce(transform.up * pushForce);
+            rigidbody.AddForce(-dirrection * pushForce);
         }
     }
 
@@ -54,4 +64,7 @@ public class ZombieHealth : MonoBehaviour
     {
         spawner.KilledZombieCount++;
     }
+
+
+
 }

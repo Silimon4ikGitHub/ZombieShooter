@@ -1,3 +1,4 @@
+using Opsive.UltimateCharacterController.Traits;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -8,6 +9,7 @@ public class ZombieRunBehaviour : StateMachineBehaviour
     [SerializeField] private float _attackRange = 3;
     [SerializeField] private float _chaseRange = 50;
     [SerializeField] private float _runSpeed = 4;
+    [SerializeField] AttributeManager zombie;
 
     private NavMeshAgent _agent;
     private Transform _player;
@@ -34,6 +36,11 @@ public class ZombieRunBehaviour : StateMachineBehaviour
         if (distance > _chaseRange)
         {
             animator.SetBool("IsRun", false);
+        }
+
+        if (zombie.Ge > 100)
+        {
+
         }
     }
 
