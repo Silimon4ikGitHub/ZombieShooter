@@ -14794,7 +14794,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1074807242}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0.068, z: 0.4782}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -22929,7 +22929,7 @@ MonoBehaviour:
   zombie: {fileID: 6034679207160724738, guid: 851cfeee6b1f01c4abba5ffde9b1212e, type: 3}
   spawnTime: 700
   minSpawnTime: 50
-  offsetTime: 0.6
+  offsetTime: 0.8
 --- !u!1001 &1857372464
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -26008,9 +26008,9 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2084314589}
-  m_LocalRotation: {x: 0.5548942, y: -0.5111502, z: -0.52210736, w: -0.39777106}
-  m_LocalPosition: {x: -0.045, y: 0.187, z: -0.025}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: 0.55450106, y: -0.528863, z: -0.50050396, w: -0.40289992}
+  m_LocalPosition: {x: -0.0384, y: 0.2031, z: -0.0245}
+  m_LocalScale: {x: 0.6848714, y: 0.6848714, z: 0.6848714}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 901288588}
@@ -26025,7 +26025,7 @@ Transform:
   - {fileID: 1885650793}
   m_Father: {fileID: 1986471683}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 282.789, y: -128.687, z: 223.335}
+  m_LocalEulerAnglesHint: {x: 282.522, y: -143.521, z: 237.67}
 --- !u!114 &2084314591
 MonoBehaviour:
   m_ObjectHideFlags: 0

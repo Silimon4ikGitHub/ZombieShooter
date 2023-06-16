@@ -2094,9 +2094,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pushDirrection: {x: 0, y: 0, z: 0}
-  pushForce: 1000
+  pushForce: 500
   destroyTime: 10
-  myRb: {fileID: 0}
 --- !u!114 &3669915351656451072
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -30,7 +30,6 @@ public class ZombieWalkBehaviour : StateMachineBehaviour
 
         _agent = animator.GetComponent<NavMeshAgent>();
         _agent.SetDestination(points[0].position);
-        Debug.Log(points.Count);
     }
 
     override public void OnStateUpdate(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
