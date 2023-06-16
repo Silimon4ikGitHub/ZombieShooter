@@ -108,7 +108,7 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: 0.12375962
+  m_Radius: 0.09
   m_Height: 0.41253206
   m_Direction: 1
   m_Center: {x: 0, y: 0.20626603, z: 0}
@@ -288,8 +288,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.4509905, y: 0.17654265, z: 0.3013494}
-  m_Center: {x: -0.00062307715, y: 0.088271424, z: -0.03703524}
+  m_Size: {x: 0.41, y: 0.24, z: 0.21}
+  m_Center: {x: -0.00062307715, y: 0.17, z: -0.03703524}
 --- !u!54 &1580878199270309238
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -425,6 +425,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6589072666796843252}
   - component: {fileID: 4907790428995405848}
+  - component: {fileID: 7825286019989215446}
   m_Layer: 3
   m_Name: WorldWar_zombie
   m_TagString: Untagged
@@ -572,6 +573,20 @@ SkinnedMeshRenderer:
     m_Center: {x: -0.006120667, y: -0.054940045, z: 0.038640767}
     m_Extent: {x: 0.47695297, y: 1.100297, z: 0.3852597}
   m_DirtyAABB: 0
+--- !u!114 &7825286019989215446
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1678330982333970096}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c6e458a25b435dd4086faf6dce3b39e6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SurfaceType: {fileID: 11400000, guid: b06f02000ea425b4dbf5a7131c1bb898, type: 2}
+  m_AllowDecals: 0
 --- !u!1 &1760453082575778927
 GameObject:
   m_ObjectHideFlags: 0
@@ -679,7 +694,7 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: 0.13359869
+  m_Radius: 0.07
   m_Height: 0.53439474
   m_Direction: 1
   m_Center: {x: 0, y: 0.26719737, z: 0}
@@ -949,7 +964,7 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: 0.103524975
+  m_Radius: 0.06
   m_Height: 0.51762486
   m_Direction: 1
   m_Center: {x: 0, y: 0.25881243, z: 0}
@@ -1843,7 +1858,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.44945398, y: 0.423208, z: 0.30048555}
+  m_Size: {x: 0.44945398, y: 0.423208, z: 0.21}
   m_Center: {x: -0.0007853806, y: 0.1298626, z: -0.060035944}
 --- !u!54 &7448062096770442449
 Rigidbody:
@@ -1911,7 +1926,6 @@ GameObject:
   - component: {fileID: -8558084525092612783}
   - component: {fileID: 5117815305186701186}
   - component: {fileID: 1708255686}
-  - component: {fileID: 9116858934777839410}
   m_Layer: 3
   m_Name: WarZombie
   m_TagString: Untagged
@@ -2246,20 +2260,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &9116858934777839410
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6034679207160724738}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c6e458a25b435dd4086faf6dce3b39e6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_SurfaceType: {fileID: 11400000, guid: b85fb8b5e3020c446bd27ea928c285e0, type: 2}
-  m_AllowDecals: 0
 --- !u!1 &6104175633004398184
 GameObject:
   m_ObjectHideFlags: 0
@@ -2848,7 +2848,7 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: 0.10545347
+  m_Radius: 0.05
   m_Height: 0.52726734
   m_Direction: 1
   m_Center: {x: 0, y: 0.26363367, z: 0}
@@ -3181,7 +3181,7 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: 0.12376001
+  m_Radius: 0.07
   m_Height: 0.41253334
   m_Direction: 1
   m_Center: {x: 0, y: 0.20626667, z: 0}
@@ -3292,7 +3292,7 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: 0.13264254
+  m_Radius: 0.04
   m_Height: 0.53057015
   m_Direction: 1
   m_Center: {x: 0, y: 0.26528507, z: 0}

@@ -19858,9 +19858,25 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_ObjectSurfaces:
-  - m_SurfaceType: {fileID: 11400000, guid: b85fb8b5e3020c446bd27ea928c285e0, type: 2}
+  - m_SurfaceType: {fileID: 11400000, guid: b06f02000ea425b4dbf5a7131c1bb898, type: 2}
     m_UVTextures:
     - m_Texture: {fileID: 2800000, guid: a2328ffcc5e9d644a81a929c0de01133, type: 3}
+      m_UV:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1
+        height: 1
+  - m_SurfaceType: {fileID: 11400000, guid: b85fb8b5e3020c446bd27ea928c285e0, type: 2}
+    m_UVTextures:
+    - m_Texture: {fileID: 2800000, guid: f467cf2c4c0f7e24c98893124117b833, type: 3}
+      m_UV:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1
+        height: 1
+    - m_Texture: {fileID: 2800000, guid: b27772baa47581f45b3ee062e679d8d4, type: 3}
       m_UV:
         serializedVersion: 2
         x: 0
@@ -19870,7 +19886,7 @@ MonoBehaviour:
   m_MainTexturePropertyName: _MainTex
   m_DetectTerrainTreeTextures: 0
   m_FallbackSurfaceImpact: {fileID: 11400000, guid: f49abdd3bca87e54cb474256211b133e, type: 2}
-  m_FallbackSurfaceType: {fileID: 11400000, guid: e616b14f5d2d0cf42bb5b4360f2b2089, type: 2}
+  m_FallbackSurfaceType: {fileID: 0}
   m_FallbackAllowDecals: 0
 --- !u!4 &1593818340
 Transform:
@@ -26936,6 +26952,25 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aa979cecccf85264fa104b2ccd479ab4, type: 3}
+--- !u!1 &2140958770 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8808427441873498316, guid: 1bf3e16bfe951654f8f5b34f8dad9064, type: 3}
+  m_PrefabInstance: {fileID: 1919103840}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2140958774
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2140958770}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c6e458a25b435dd4086faf6dce3b39e6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SurfaceType: {fileID: 11400000, guid: f0ab3028318b8fc4b9467dbd20a3d673, type: 2}
+  m_AllowDecals: 1
 --- !u!1001 &2145152505
 PrefabInstance:
   m_ObjectHideFlags: 0
