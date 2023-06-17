@@ -17,15 +17,15 @@ public class ZombieHealth : MonoBehaviour
 
     private void Awake()
     {
-        myRb = transform.gameObject.GetComponent<Rigidbody>();
+        //myRb = transform.gameObject.GetComponent<Rigidbody>();
         spawner = GameObject.FindGameObjectWithTag("Spawner").GetComponent<ZombieSpawner>();
         allRigidbodies = GetComponentsInChildren<Rigidbody>();
     }
 
     public void Dead()
     {
-        myRb.useGravity = true;
-        myRb.isKinematic = false;
+        //myRb.useGravity = true;
+        //myRb.isKinematic = false;
         Push(pushDirrection);
 
         transform.gameObject.GetComponent<CapsuleCollider>().enabled = false;
@@ -57,7 +57,9 @@ public class ZombieHealth : MonoBehaviour
 
     private void DestoryBody()
     {
-        Destroy(transform.gameObject);
+        spawner.AddDeadZombie(transform.gameObject);
+        spawner.SaveZombie(transform.gameObject);
+        //Destroy(transform.gameObject);
     }
 
     private void AddKillCount()

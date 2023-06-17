@@ -5331,7 +5331,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 1708255686, guid: 851cfeee6b1f01c4abba5ffde9b1212e, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 851cfeee6b1f01c4abba5ffde9b1212e, type: 3}
 --- !u!1001 &306421412
 PrefabInstance:
@@ -22952,9 +22953,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   KilledZombieCount: 0
   zombie: {fileID: 6034679207160724738, guid: 851cfeee6b1f01c4abba5ffde9b1212e, type: 3}
+  deadZombies:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
   spawnTime: 700
-  minSpawnTime: 50
+  minSpawnTime: 100
   offsetTime: 0.8
+  isNoSavedZombie: 0
+  timer: 0
 --- !u!1001 &1857372464
 PrefabInstance:
   m_ObjectHideFlags: 0
