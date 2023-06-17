@@ -4,8 +4,9 @@ using UnityEngine;
 
 public class ZombieAudio : MonoBehaviour
 {
+    [SerializeField] private AudioClip zombieHitClip;
     private AudioSource myAudioSource;
-
+    
     private void Start()
     {
         myAudioSource = GetComponent<AudioSource>();
@@ -13,6 +14,7 @@ public class ZombieAudio : MonoBehaviour
 
     public void PlayAttackSound()
     {
+        myAudioSource.clip = zombieHitClip;
         myAudioSource.Play();
     }
 }

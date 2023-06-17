@@ -64,9 +64,7 @@ public class ZombieSpawner : MonoBehaviour
     {
         int random = Random.Range(0, points.Length);
         var currentZombie = Instantiate(zombie, points[random].transform.position, transform.rotation);
-        
-        if (spawnTime > minSpawnTime)
-            spawnTime *= offsetTime;    
+        TimeerDecrease();
     }
 
     public void AddDeadZombie(GameObject zombie)
@@ -121,6 +119,7 @@ public class ZombieSpawner : MonoBehaviour
                 break;
             }
         }
+        TimeerDecrease();
     }
 
     private void RefreshZombieComponents(GameObject zombie, Rigidbody zombieRb)
@@ -132,5 +131,11 @@ public class ZombieSpawner : MonoBehaviour
         zombie.GetComponent<NavMeshAgent>().enabled = true;
         zombie.GetComponent<Animator>().enabled = true;
         
+    }
+
+    private void TimeerDecrease()
+    {
+        if (spawnTime > minSpawnTime)
+            spawnTime *= offsetTime;
     }
 }
