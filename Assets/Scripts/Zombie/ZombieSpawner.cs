@@ -99,7 +99,6 @@ public class ZombieSpawner : MonoBehaviour
         if (counter == arrayLength)
         {
             isArrayEmpty = true;
-            Debug.Log(isArrayEmpty);
         }
         return isArrayEmpty;
     }

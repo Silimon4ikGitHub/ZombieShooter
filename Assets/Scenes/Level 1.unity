@@ -5287,6 +5287,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: WarZombie
       objectReference: {fileID: 0}
+    - target: {fileID: 6034679207160724738, guid: 851cfeee6b1f01c4abba5ffde9b1212e, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6409937734863972280, guid: 851cfeee6b1f01c4abba5ffde9b1212e, type: 3}
       propertyPath: m_RootOrder
       value: 0
